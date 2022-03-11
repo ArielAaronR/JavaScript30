@@ -9,6 +9,7 @@ window.addEventListener('keydown', (e) => {
 });
 
 const keys = document.querySelectorAll('.key');
+
 const removeTransition = (e, key) => {
   if (e.propertyName !== 'transform') return;
   key.classList.remove('playing');
